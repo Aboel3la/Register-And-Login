@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrapFiles/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div id="loginForm">
+            <div class="card">
+              <div class="card-header text-center">
+                <h3>Login</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="loginEmail" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="loginEmail"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="loginPassword" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="loginPassword"
+                      required
+                    />
+                  </div>
+                  <div class="form-check mb-3">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="rememberMe"
+                    />
+                    <label class="form-check-label" for="rememberMe"
+                      >Remember Me</label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Login
+                  </button>
+                </form>
+                <div class="text-center mt-3">
+                  <p>
+                    Don't have an account?
+                    <a href="#" onclick="showRegister()">Register here</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrapFiles/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
